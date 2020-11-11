@@ -7,3 +7,25 @@ nav{
 main {
     padding-top: 4em;
 }
+
+.overlay-dark {
+    background-color: rgba(black, 0.4);
+}
+
+.half-card {
+    border: 1px solid black;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex: 1 3;
+  }
+
+.list-group {
+    order: 1;
+}
+
+.scrollspy-example {
+    order: 2;
+}
