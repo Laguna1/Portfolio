@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+nav{
+    background-color:red;
+    color: black;
+}
+
+.right-side {
+	background-color: #8fc58f;
+	overflow-y: auto;
+    max-height: 800px;
+}
+
+footer {
+    background-color: rgb(34, 33, 33);
+    color: whitesmoke;
+}
+
+.fa,
+.fab {
+    color: whitesmoke;
+}
+
+html {
+	font-family: sans-serif;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+	scroll-snap-type: y mandatory;
+}
+section{
+	border-bottom: 1px solid rgb(24, 21, 21);
+	padding: 1rem;
+	height: 100vh;
+	scroll-snap-align: start;
+	text-align: center;
+	position: relative;
+}
+h1	{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: white;
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 3vw);
+}
