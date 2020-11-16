@@ -9,7 +9,7 @@ Project about my current professional skills
 ****
 
 ### Live Demo 
- [Demo-link](https://rawcdn.githack.com/Laguna1/My-portfolio/2a8f185ed0d90b8a5b076d76a1541ff780c5afba/index2.html) 
+ [My Portfolio](https://aqueous-waters-68532.herokuapp.com/) 
 ***
 
 ### Author
