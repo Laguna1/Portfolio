@@ -1,7 +1,12 @@
 body {
     box-sizing: border-box;
-    background-color: rgb(49,55,56);
+    background-color: rgb(67, 69, 70);
  }
+
+.logo {
+    font-weight: 600;
+    font-size: larger;
+}
 
 main {
     padding-top: 4em;
@@ -118,8 +123,8 @@ main {
     border-bottom: 1px solid orangered;
     border-top: 1px solid orangered;
     bottom: 30px;
-    left: 10px;
-    right: 10px;
+    left: 20px;
+    right: 20px;
     top: 30px;
     transform: scale(0, 1);
     transform-origin: 0 0;
@@ -128,17 +133,17 @@ main {
   .post a:after {
     border-left: 1px solid orangered;
     border-right: 1px solid orangered;
-    bottom: 10px;
+    bottom: 20px;
     left: 30px;
     right: 30px;
-    top: 10px;
+    top: 20px;
     transform: scale(1, 0);
     transform-origin: 100% 0 ;
   }
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   color: orange;
 }
 
@@ -156,6 +161,11 @@ main {
 
  .thanks-message {
   font-family: 'Roboto', sans-serif;
+ }
+
+ span,
+ i {
+   color: orange;
  }
 
  @media screen and (max-width: 425px) {
