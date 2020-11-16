@@ -1,0 +1,156 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(151, 220, 241);
+ }
+
+.overlay-dark {
+    background-color: rgba(black, 0.4);
+}
+
+main {
+    border: 1px solid black;
+    padding-top: 4em;
+    position: relative;
+    display: flex;
+    flex: 1 3;
+  }
+
+.list-group {
+    order: 1;
+}
+
+.scrollspy-example {
+    order: 2;
+}
+
+.bd-example {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -15px 0;
+    border: solid #f8f9fa;
+    border-width: .2rem 0 0;
+    height: 800px !important;
+}
+
+.right-part{
+    position: relative;
+    height: 600px !important;
+    margin-top: 0.5rem;
+    overflow: auto;
+}
+
+.box {
+    width: 556px;
+    margin: auto 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+  .box-inner img {
+    transition: all 0.4s ease-in-out;
+  }
+  .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -40px;
+    text-align: center;
+    z-index: 2;
+  }
+  .text h2 {
+    font-family: 'Forum', cursive;
+    color: orange;
+    display: inline-block;
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-width: 1px 0;
+    border-color: rgba(255,255,255,0.5);
+    border-style: solid;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+  .box:hover:before {
+    opacity: 1;
+  }
+  .box:hover img {
+    transform: scale(1.1);
+  }
+  .box:hover .text h2 {
+    opacity: 1;
+  }
+  article {
+    display: block;
+  }
+  .post {
+    position: relative;
+    width: 100%;
+    margin: auto 0;
+  }
+  .post:before, 
+  .post a:before,
+  .post a:after {
+    content: "";
+    opacity: 0;
+    position: absolute;
+    transition: opacity .5s ease-in-out, transform .5s ease-in-out;
+  }
+  .post:before {
+    background: rgba(255, 255, 255, .2);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  } 
+  .post:hover:before {
+    opacity: 1;
+  }
+  .post:hover a:before, 
+  .post:hover a:after {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .post:hover img:before{
+    opacity: 0.9;
+  }
+
+  .post:hover img:after{
+    opacity: 0;
+  }
+
+
+  .post a:before {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    bottom: 30px;
+    left: 10px;
+    right: 10px;
+    top: 30px;
+    transform: scale(0, 1);
+    transform-origin: 0 0;
+  }
+  .post a:after {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    bottom: 10px;
+    left: 30px;
+    right: 30px;
+    top: 10px;
+    transform: scale(1, 0);
+    transform-origin: 100% 0 ;
+  }
+  
