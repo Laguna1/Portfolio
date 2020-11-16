@@ -141,6 +141,11 @@ main {
     transform-origin: 100% 0 ;
   }
 
+.lang {
+  background-color: orange;
+  border-radius: 45%;
+}
+
 .skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
