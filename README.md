@@ -17,7 +17,7 @@ Project about my current professional skills
 
 ### Author
  - Github:[@Laguna1](https://github.com/Laguna1)
- - Linkedin: [Oksana Petrova](https://www.linkedin.com/in/oksana-petrova-005bb0145/)
+ - Linkedin: [Oksana Petrova](https://www.linkedin.com/in/oksana-petrova/
  - Twitter: [Oksana Petrova](https://twitter.com/OksanaP48303303)
 
 
