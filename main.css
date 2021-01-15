@@ -146,6 +146,14 @@ main {
   border-radius: 45%;
 }
 
+.short-description {
+  margin-top: 25px !important;
+}
+
+.short-line {
+  color: orange;
+}
+
 .skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
